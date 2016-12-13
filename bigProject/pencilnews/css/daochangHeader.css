@@ -1,0 +1,46 @@
+.daochang-header ul {
+  height: 74px;
+  line-height: 70px; }
+  .daochang-header ul li {
+    padding: 0;
+    width: 80px;
+    text-align: center;
+    margin-right: 40px;
+    font-size: 2rem;
+    color: #666; }
+    .daochang-header ul li a:link {
+      color: #999999; }
+    .daochang-header ul li:hover {
+      cursor: pointer; }
+  .daochang-header ul .active {
+    border-bottom: 4px solid #64a6bd; }
+    .daochang-header ul .active a {
+      color: #64a6bd; }
+
+@media (max-width: 767px) {
+  .daochang-header {
+    text-align: center; }
+    .daochang-header ul {
+      height: 40px;
+      line-height: 36px; }
+      .daochang-header ul li {
+        border: none;
+        font-size: 16px;
+        margin: 0;
+        padding: 0;
+        width: 32%; }
+        .daochang-header ul li a {
+          display: inline-block;
+          width: 70px;
+          line-height: 36px; }
+      .daochang-header ul .active {
+        border: none; }
+        .daochang-header ul .active a {
+          border-bottom: 4px solid #64a6bd; } }
+
+@media (max-width: 1199px) {
+  .daochang-header ul {
+    height: 65px;
+    line-height: 61px; }
+    .daochang-header ul li {
+      font-size: 16px; } }

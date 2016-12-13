@@ -1,0 +1,27 @@
+#front {
+  margin-top: 25px; }
+  #front li {
+    font-size: 20px;
+    letter-spacing: 0px;
+    float: left;
+    margin-right: 61px; }
+    #front li a {
+      color: #666666; }
+    #front li a:hover {
+      color: #fff300; }
+
+@media screen and (max-width: 768px) {
+  #front {
+    padding-left: 15px;
+    padding-right: 15px; }
+    #front li {
+      width: 25%;
+      margin-right: 0;
+      font-size: 1.6rem;
+      text-align: center; }
+  h1 {
+    font-size: 1.6rem; } }
+
+@media screen and (max-width: 375px) {
+  #front li {
+    font-size: 1.4rem; } }

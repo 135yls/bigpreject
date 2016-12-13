@@ -1,0 +1,102 @@
+html {
+  font-size: 62.5%; }
+
+body {
+  color: #4a4a4a;
+  font-size: 1.6rem;
+  font-family: PingFangSC-Regular, "Microsoft YaHei";
+  position: relative;
+  background: #f2f2f2; }
+
+*::-moz-selection {
+  background-color: #3f3b3a;
+  color: #fff300; }
+
+*::selection {
+  background-color: #3f3b3a;
+  color: #fff300; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+  color: #4a4a4a; }
+
+h1 {
+  font-size: 3.6rem; }
+
+h2 {
+  font-size: 2.4rem; }
+
+h3 {
+  font-size: 1.8rem; }
+
+h4 {
+  font-size: 1.4rem; }
+
+strong {
+  font-weight: 600; }
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: #9b9b9b;
+  text-decoration: none;
+  transition: 0.3s all ease-in-out; }
+
+a:hover {
+  color: #4cc1fa; }
+
+p {
+  margin: 0; }
+
+br {
+  line-height: 0; }
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+button {
+  background: #fff300;
+  /*border-radius: 3px;*/
+  text-align: center;
+  color: #4a4a4a; }
+
+button:hover {
+  background: #ded300;
+  transition: 0.3s all ease-in-out; }
+
+button:focus {
+  outline: 0 auto -webkit-focus-ring-color; }
+
+input {
+  border-radius: 3px; }
+
+.topblank {
+  padding-top: 30px !important; }
+
+.container {
+  position: relative; }
+
+.card {
+  background: #fff;
+  box-shadow: 0px 1px 2px 0px rgba(68, 68, 68, 0.2);
+  border-radius: 3px;
+  padding: 20px;
+  margin-bottom: 30px; }
+
+@media screen and (max-width: 767px) {
+  .topblank {
+    padding-top: 90px !important; }
+  .topblank_s {
+    padding-top: 50px !important; } }
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  body {
+    -webkit-font-smoothing: antialiased; } }
